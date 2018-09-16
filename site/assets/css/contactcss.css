@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url(https://jcsatanas.fr/wp-content/uploads/2016/04/fond-ecran-wallpaper-blur-ipad-13.jpg) no-repeat center center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+    font-size: 16px;
+}
+
+form {
+    
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    
+}
+
+.form-control {
+    
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    
+    
+}
+
+input {
+    height: 45px;
+    
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+form .submit:hover {
+    
+    background-color: #f44336;
+    cursor: pointer;
+    
+}
